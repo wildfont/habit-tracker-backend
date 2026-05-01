@@ -1,0 +1,92 @@
+{
+  "habits": [
+    {
+      "id": "0001",
+      "name": "Read 30 minutes",
+      "description": "Read at least 30 minutes every day",
+      "category": "Study",
+      "frequency": "daily",
+      "goal": "30",
+      "color": "#6c5ce7",
+      "icon": "📚",
+      "isArchived": false,
+      "createdAt": "2026-05-01"
+    },
+    {
+      "id": "0002",
+      "name": "Exercise",
+      "description": "Do a 30-minute workout routine",
+      "category": "Health",
+      "frequency": "daily",
+      "goal": "30",
+      "color": "#00b894",
+      "icon": "💪🏼",
+      "isArchived": false,
+      "createdAt": "2026-05-01"
+    },
+    {
+      "id": "0003",
+      "name": "Drink Water",
+      "description": "Drink 8 glasses of water every day",
+      "category": "Wellness",
+      "frequency": "daily",
+      "goal": "8",
+      "color": "#0984e3",
+      "icon": "💧",
+      "isArchived": false,
+      "createdAt": "2026-05-01"
+    },
+    {
+      "id": "0004",
+      "name": "Evening Journaling",
+      "description": "Write a short reflection in your journal before bed",
+      "category": "Personal",
+      "frequency": "daily",
+      "goal": "1",
+      "color": "#fd79a8",
+      "icon": "📝",
+      "isArchived": false,
+      "createdAt": "2026-05-01"
+    }
+  ],
+  "completions": [
+    {
+        "id": "abcd",
+        "habitId": "0001",
+        "date": "2026-05-01",
+        "completed": true,
+        "notes": "",
+        "rating": "5", 
+        "progress": "30"
+    }
+  ],
+  "achievements": [
+  {
+    "id": "ABCD",
+    "name": "First Step",
+    "description": "Complete your first habit",
+    "icon": "🌟",
+    "condition": 1,
+    "conditionType": "total_completions",
+    "unlockedAt": null
+  },
+  {
+    "id": "EFGH",
+    "name": "First week",
+    "description": "Complete your first week",
+    "icon": "🥇",
+    "condition": 7,
+    "conditionType": "streak",
+    "unlockedAt": null
+  },
+  {
+    "id": "IJKL",
+    "name": "On fire",
+    "description": "you're on a streak",
+    "icon": "🔥",
+    "condition": 3,
+    "conditionType": "streak",
+    "unlockedAt": null
+  }
+]
+}
