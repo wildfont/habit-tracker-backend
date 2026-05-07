@@ -6,7 +6,7 @@ try {
 
 const jsonServer = require("json-server"); // to start building the server
 
-const server = json.Server.create(); // to create the Server Object
+const server = jsonServer.create(); // to create the Server Object
 
 const middlewares = jsonServer.defaults(); //to set common configurations from the jsonServer library 
 
