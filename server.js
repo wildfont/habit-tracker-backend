@@ -10,9 +10,12 @@ const server = jsonServer.create(); // to create the Server Object
 
 const middlewares = jsonServer.defaults(); //to set common configurations from the jsonServer library 
 
-const router = jsonServer.router("db.json");
+const router = jsonServer.router(__dirname + "/db.json");
 
 const PORT = process.env.PORT || 5005;
+
+server.use(middlewares);
+server.use(router);
 
 server.listen(PORT, () => {
     console.log(`JSON Server is running at port ${PORT}`);
