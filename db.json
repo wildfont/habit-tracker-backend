@@ -7,7 +7,7 @@
       "category": "Study",
       "frequency": "daily",
       "goal": "1",
-      "color": "#fd79a8",
+      "color": "#fef2d6",
       "icon": "📋",
       "createdAt": "2026-05-05"
     },
@@ -18,7 +18,7 @@
       "category": "Health",
       "frequency": "daily",
       "goal": "1",
-      "color": "#00b894",
+      "color": "#e37413",
       "icon": "💪🏼",
       "createdAt": "2026-05-01"
     },
@@ -29,7 +29,7 @@
       "category": "Wellness",
       "frequency": "daily",
       "goal": "8",
-      "color": "#0984e3",
+      "color": "#f28e1c",
       "icon": "💧",
       "createdAt": "2026-05-01"
     },
@@ -40,7 +40,7 @@
       "frequency": "Daily",
       "goal": "1",
       "createdAt": "2026-05-05",
-      "color": "#fd79a8",
+      "color": "#fef2d6",
       "icon": "📋",
       "id": "bx3CLKEnXJA"
     },
@@ -51,7 +51,7 @@
       "frequency": "Daily",
       "goal": "1",
       "createdAt": "2026-05-06",
-      "color": "#fd79a8",
+      "color": "#f9ca78",
       "icon": "📚",
       "id": "5q2AYa4l06Y"
     }
