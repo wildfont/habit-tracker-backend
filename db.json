@@ -7,10 +7,9 @@
       "category": "Study",
       "frequency": "daily",
       "goal": "30",
-      "color": "#6c5ce7",
-      "icon": "📚",
-      "isArchived": false,
-      "createdAt": "2026-05-01"
+      "color": "#fd79a8",
+      "icon": "📋",
+      "createdAt": "2026-05-05"
     },
     {
       "id": "0002",
@@ -21,7 +20,6 @@
       "goal": "30",
       "color": "#00b894",
       "icon": "💪🏼",
-      "isArchived": false,
       "createdAt": "2026-05-01"
     },
     {
@@ -33,60 +31,106 @@
       "goal": "8",
       "color": "#0984e3",
       "icon": "💧",
-      "isArchived": false,
       "createdAt": "2026-05-01"
     },
     {
-      "id": "0004",
       "name": "Evening Journaling",
       "description": "Write a short reflection in your journal before bed",
       "category": "Personal",
-      "frequency": "daily",
+      "frequency": "Daily",
       "goal": "1",
+      "createdAt": "2026-05-05",
       "color": "#fd79a8",
-      "icon": "📝",
-      "isArchived": false,
-      "createdAt": "2026-05-01"
+      "icon": "📋",
+      "id": "bx3CLKEnXJA"
+    },
+    {
+      "name": "Do a Kata from Codewars",
+      "description": "practice coding",
+      "category": "Study",
+      "frequency": "Daily",
+      "goal": "1",
+      "createdAt": "2026-05-06",
+      "color": "#fd79a8",
+      "icon": "📋",
+      "id": "5q2AYa4l06Y"
     }
   ],
   "completions": [
     {
-        "id": "abcd",
-        "habitId": "0001",
-        "date": "2026-05-01",
-        "completed": true,
-        "notes": "",
-        "rating": "5", 
-        "progress": "30"
+      "habitId": "0001",
+      "date": "2026-05-06",
+      "completed": true,
+      "notes": "",
+      "rating": 0,
+      "progress": 0,
+      "id": "FVUtkrmFsbo"
+    },
+    {
+      "habitId": "0002",
+      "date": "2026-05-06",
+      "completed": true,
+      "notes": "",
+      "rating": 0,
+      "progress": 0,
+      "id": "DGWSxRwRnTc"
+    },
+    {
+      "habitId": "0003",
+      "date": "2026-05-06",
+      "completed": true,
+      "notes": "",
+      "rating": 0,
+      "progress": 0,
+      "id": "bdpZNNDh_6A"
+    },
+    {
+      "habitId": "bx3CLKEnXJA",
+      "date": "2026-05-06",
+      "completed": true,
+      "notes": "",
+      "rating": 0,
+      "progress": 0,
+      "id": "m-5Ce8dH9Z8"
+    },
+    {
+      "habitId": "5q2AYa4l06Y",
+      "date": "2026-05-06",
+      "completed": true,
+      "notes": "",
+      "rating": 0,
+      "progress": 0,
+      "id": "a-IsBlEOFFI"
     }
   ],
   "achievements": [
-  {
-    "id": "ABCD",
-    "name": "First Step",
-    "description": "Complete your first habit",
-    "icon": "🌟",
-    "condition": 1,
-    "conditionType": "total_completions",
-    "unlockedAt": null
-  },
-  {
-    "id": "EFGH",
-    "name": "First week",
-    "description": "Complete your first week",
-    "icon": "🥇",
-    "condition": 7,
-    "conditionType": "streak",
-    "unlockedAt": null
-  },
-  {
-    "id": "IJKL",
-    "name": "On fire",
-    "description": "you're on a streak",
-    "icon": "🔥",
-    "condition": 3,
-    "conditionType": "streak",
-    "unlockedAt": null
-  }
-]
+    {
+      "id": "ABCD",
+      "name": "First Step",
+      "description": "Complete your first habit",
+      "icon": "🌟",
+      "condition": 1,
+      "conditionType": "total_completions",
+      "unlockedAt": null
+    },
+    {
+      "id": "EFGH",
+      "name": "First week",
+      "description": "Complete your first week",
+      "icon": "🥇",
+      "condition": 7,
+      "conditionType": "streak",
+      "unlockedAt": null
+    },
+    {
+      "id": "IJKL",
+      "name": "On fire",
+      "description": "you're on a streak",
+      "icon": "🔥",
+      "condition": 3,
+      "conditionType": "streak",
+      "unlockedAt": null
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
